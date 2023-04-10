@@ -33,7 +33,7 @@ class B2CAuthority {
 
   /// Return the policy name associathed to the authority.
   String get policyName =>
-      (authorityURL.includes('tfp'))
+      (authorityURL.contains('tfp'))
           ? authorityURL.split(RegExp("https://|/"))[4]
           : authorityURL.split(RegExp("https://|/"))[3];
 
