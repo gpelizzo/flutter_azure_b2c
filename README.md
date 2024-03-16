@@ -271,7 +271,7 @@ override func application(
 #### 6.3.1 Open web/index.html and add following line
 
 ```
-<script type="text/javascript" src="https://github.com/gpelizzo/flutter_azure_b2c/blob/master/readme/https://alcdn.msauth.net/browser/2.14.0/js/msal-browser.min.js"></script>
+<script type="text/javascript" src="https://alcdn.msauth.net/browser/2.14.0/js/msal-browser.min.js"></script>
 ```
 
 #### 6.3.2 Create azure_auth_config.json config file and save it into assets
